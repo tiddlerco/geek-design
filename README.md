@@ -9,15 +9,12 @@
 
 #### 安装教程
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+1.  gradle 6.0
+2.  jdk 1.8
 
 #### 使用说明
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+1.  执行测试类DefaultApiAuthencatorTest即可
 
 #### 参与贡献
 
