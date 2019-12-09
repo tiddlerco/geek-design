@@ -1,2 +1,3 @@
 rootProject.name = 'geek-design'
+include 'geek-alert'
 
