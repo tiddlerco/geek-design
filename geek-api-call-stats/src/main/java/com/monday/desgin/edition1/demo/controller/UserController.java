@@ -1,8 +1,8 @@
-package com.monday.desgin.demo.controller;
+package com.monday.desgin.edition1.demo.controller;
 
 
-import com.monday.desgin.demo.UserVo;
-import com.monday.desgin.stats.Metrics;
+import com.monday.desgin.edition1.demo.UserVo;
+import com.monday.desgin.edition1.stats.Metrics;
 
 import java.util.concurrent.TimeUnit;
 

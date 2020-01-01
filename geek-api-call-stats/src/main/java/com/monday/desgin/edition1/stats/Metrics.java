@@ -1,4 +1,4 @@
-package com.monday.desgin.stats;
+package com.monday.desgin.edition1.stats;
 
 
 import com.google.gson.Gson;
