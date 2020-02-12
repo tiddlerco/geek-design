@@ -1,4 +1,6 @@
 rootProject.name = 'geek-design'
 include 'geek-alert'
 include 'geek-api-call-stats'
+include 'geek-factory'
+include 'geek-singleton'
 
