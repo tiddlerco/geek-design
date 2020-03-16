@@ -5,4 +5,6 @@
 */*.iml
 
 
-*/out
+*/out/*
+
+.gradle/*

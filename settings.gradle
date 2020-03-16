@@ -5,4 +5,7 @@ include 'geek-factory'
 include 'geek-singleton'
 include 'geek-proxy'
 include 'geek-bridge'
+include 'geek-flyweight'
+include 'geek-demo'
+include 'geek-observer'
 
