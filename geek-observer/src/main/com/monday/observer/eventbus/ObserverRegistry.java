@@ -14,6 +14,10 @@ public class ObserverRegistry {
      */
     private ConcurrentMap<Class<?>, CopyOnWriteArraySet<ObserverAction>> registry = new ConcurrentHashMap<>();
 
+    /***
+     * 注册.
+     * @param observer
+     */
     public void register(Object observer) {
         Map<Class<?>, Collection<ObserverAction>> observerActions = findAllObserverActions(observer);
         for (Map.Entry<Class<?>, Collection<ObserverAction>> entry : observerActions.entrySet()) {
@@ -26,6 +30,11 @@ public class ObserverRegistry {
         }
     }
 
+    /**
+     *  获取匹配的观察者信息.
+     * @param event
+     * @return
+     */
     public List<ObserverAction> getMatchedObserverActions(Object event) {
         List<ObserverAction> matchedObservers = new ArrayList<>();
         Class<?> postedEventType = event.getClass();
