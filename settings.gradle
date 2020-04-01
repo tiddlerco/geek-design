@@ -8,4 +8,5 @@ include 'geek-bridge'
 include 'geek-flyweight'
 include 'geek-demo'
 include 'geek-observer'
+include 'geek-state'
 
