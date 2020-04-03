@@ -9,4 +9,5 @@ include 'geek-flyweight'
 include 'geek-demo'
 include 'geek-observer'
 include 'geek-state'
+include 'geek-iterator'
 
